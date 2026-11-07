@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, verify/macos-amd64]
     # Docs-only pushes skip CI. Pull requests always run: main requires
     # both checks, and a skipped workflow never reports them.
     paths-ignore:
